@@ -1,0 +1,55 @@
+@font-face {
+    font-family: maplestory; 
+    src: url("C:\Users\MrChoi\Desktop\testing\blog\src\fonts\Maplestory Light.ttf"); 
+}
+
+
+.swiper {
+    margin-top: 0vw;
+    width: 80%;
+    left: 80px;
+}
+
+.swiper-slide {
+    height: 20vw;
+    text-align: center;
+    font-size: 18vw;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: inline;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+.titles {
+    position: relative;
+    left: 35px;
+    font-family: maplestory;
+    font-size: 35px;
+}
+.max-swiper {
+    background: lightgoldenrodyellow;
+    width: 100%;
+    height: 22vw;
+}
+.swipe-con {
+    position: relative;
+    top: 1vw;
+}
